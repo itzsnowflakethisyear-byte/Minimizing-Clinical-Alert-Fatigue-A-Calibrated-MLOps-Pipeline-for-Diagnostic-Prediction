@@ -1,15 +1,22 @@
 ## **Exploratory Data Analysis of a Healthcare Dataset**
 
-**Tools:** Python (pandas, NumPy), SQL-style analysis, Matplotlib/Seaborn, Data Visualization
+### **Domain:** Healthcare Operations, Cost Optimization, Quality of Care
 
-**Domain:** Healthcare Operations, Cost Optimization, Quality of Care
+### **Stakeholder Group:** 
+
+-  Public Health Officials (Medical Analytics, Epidemiology, Health Informatics)
+- Insurance Providers(Insurance Analytics, Cost Optimization, Quality of Care)
+
+### **Overview**
 
 This project performs exploratory data analysis (EDA) on a synthetic healthcare dataset to uncover patterns related to patient demographics, medical conditions, billing, and test results, and to assess the data's suitability for predictive modeling
 
 ### **Dataset**
+
 The project utilizes a  healthcare dataset where each column provides specific information about the patient, their admission, and the healthcare services provided, making this dataset suitable for various data analysis and modeling tasks in the healthcare domain. Here's a brief explanation of each column in the dataset 
 
 ### **Problem Statement**
+
 The primary objective was to identify meaningful associations, assess data quality, and determine if the dataset supports modeling. Key questions explored:
 - How test results and billing amounts vary across different medical conditions? 
 - Which conditions, admission types, and demographics associate with abnormal results? 
