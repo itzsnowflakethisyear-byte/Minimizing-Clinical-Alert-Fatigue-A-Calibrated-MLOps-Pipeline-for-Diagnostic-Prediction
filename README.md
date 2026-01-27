@@ -5,14 +5,14 @@ This project performs exploratory data analysis (EDA) on a synthetic healthcare 
 ### **Dataset**
 The project utilizes a synthetic healthcare dataset provided as cleaned_healthcare_dataset.csv. The dataset contains approximately 55,000 patient records.
 
-#### **Problem Statement**
+### **Problem Statement**
 The primary objective was to identify meaningful associations, assess data quality, and determine if the dataset supports modeling. Key questions explored:
 - How test results and billing amounts vary across different medical conditions? 
 - Which conditions, admission types, and demographics associate with abnormal results? 
 - Under what circumstances do negative billing amounts occur? 
 - Which insurance providers perform best in terms of normal test results? 
 
-#### **Key Insights**
+### **Key Insights**
 - **Uniformity:** Overall, categories for variables like age, gender, medical conditions, admission types, and test results are evenly distributed, providing a balanced dataset.
 - **Condition & Outcomes:** Cancer, Diabetes, and Obesity tend to have more abnormal test results, while Hypertension and Asthma show slightly higher normal results.
 - **Billing Drivers:** Cancer treatments have the highest typical billing amounts, making them financially heavy to treat.
@@ -20,7 +20,7 @@ The primary objective was to identify meaningful associations, assess data quali
 - **Rare Negative Billing:** Negative billing amounts are concentrated in specific insurer-admission combinations and are likely corrections or disputes, not routine adjustments.
 - **Provider Performance Variation:** No single insurer is consistently the best across all conditions. UnitedHealthcare leads in 4 of 6 conditions, but overall performance varies, suggesting inconsistent care outcomes in some areas.
 
-#### **Important Visualizations**
+### **Important Visualizations**
 Age Distribution Plot: The sns.histplot of patient_df['Age'] showing the uniform distribution 
 Admissions by Medical Condition Plot: The bar plot of patient_df['Medical Condition'].value_counts() to illustrate balance
 Billing Amount Boxplot by Medical Condition: The boxplot showing how billing costs vary, highlighting Cancer's high bills
@@ -28,11 +28,11 @@ Proportion of Test Results by Age Group: The bar plot showing that younger patie
 Abnormal Test Rate by Age Group for Key Conditions: The line plot illustrating that Cancer requires consistent monitoring across all ages 
 Top Insurance Provider per Medical Condition: The bar plot that labels which insurer performs best for each condition based on normal test results 
 
-#### **Stakeholder Takeaway**
+### **Stakeholder Takeaway**
 
 Hospital administrators and insurance providers should recognize that admission acuity significantly impacts test outcomes more than demographics. While UnitedHealthcare performs strongly across several conditions, the variability in outcomes for Cancer and Obesity across providers indicates a need for better care standardization. Negative billing is a minor, specific issue likely related to reconciliation processes.
 
-#### **Actionable Recommendations**
+### **Actionable Recommendations**
 
 - **Focus on Care Pathways:** Implement initiatives to improve care pathways for emergency and urgent admissions to reduce abnormal outcomes.
 - **Implement Early Screening:** Roll out targeted early screening programs for Cancer and Diabetes, as age alone is not a reliable risk indicator.
