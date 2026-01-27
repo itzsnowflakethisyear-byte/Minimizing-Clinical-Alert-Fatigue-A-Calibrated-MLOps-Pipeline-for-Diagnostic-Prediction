@@ -1,6 +1,7 @@
 ## **Exploratory Data Analysis of a Healthcare Dataset**
 
 **Tools:** Python (pandas, NumPy), SQL-style analysis, Matplotlib/Seaborn, Data Visualization
+
 **Domain:** Healthcare Operations, Cost Optimization, Quality of Care
 
 This project performs exploratory data analysis (EDA) on a synthetic healthcare dataset to uncover patterns related to patient demographics, medical conditions, billing, and test results, and to assess the data's suitability for predictive modeling
