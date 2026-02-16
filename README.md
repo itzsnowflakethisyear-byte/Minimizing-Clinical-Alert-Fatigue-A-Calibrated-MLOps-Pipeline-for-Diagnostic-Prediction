@@ -1,4 +1,5 @@
-## **Exploratory Data Analysis of a Healthcare Dataset**
+## **Healthcare Operations: Cost and Outcome Analysis**
+#### **Exploratory Data Analysis of a Healthcare Dataset**
 
 ### **Domain:** Healthcare Operations, Cost Optimization, Quality of Care
 
